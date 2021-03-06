@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Sato</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">GNOISE</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0 mx-auto">
+                    <input class="form-control py-2 rounded-pill mr-1 pr-5" type="text" value="input"
+                        id="example-search-input">
+                    <span class="input-group-append">
+                        <button class="btn rounded-pill border-0 ml-n5" type="button">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </span>
+                    <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- TOP MV -->
+    <section class="my-5">
+        <div class="container">
+            <h4 class="text-muted mb-4">TOP MV</h4>
+            <div class="row">
+
+                <div class="col-12 col-sm-4 col-md-3 pb-3">
+                    <div class="card bg-yellow text-dark">
+                        <img src="img/1.jpg" class="card-img-top" alt="...">
+                        <div class="data-mv">
+                            <h7 class="font-weight-bold">Song name</h7>
+                            <p class="card-text"><small><a href="#" class="text-dark">Artist name</a></small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 pb-3">
+                    <div class="card bg-yellow text-dark">
+                        <img src="img/1.jpg" class="card-img-top" alt="...">
+                        <div class="data-mv">
+                            <h7 class="font-weight-bold">Song name</h7>
+                            <p class="card-text"><small><a href="#" class="text-dark">Artist name</a></small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-4 col-md-3 pb-3">
+                    <div class="card bg-yellow text-dark">
+                        <img src="img/1.jpg" class="card-img-top" alt="...">
+                        <div class="data-mv">
+                            <h7 class="font-weight-bold">Song name</h7>
+                            <p class="card-text"><small><a href="#" class="text-dark">Artist name</a></small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-sm-none d-md-block col-md-3">
+                    <div class="card bg-yellow text-dark">
+                        <img src="img/1.jpg" class="card-img-top" alt="...">
+                        <div class="data-mv">
+                            <h7 class="font-weight-bold">Song name</h7>
+                            <p class="card-text"><small><a href="#" class="text-dark">Artist name</a></small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Latest Releases -->
+    <section class="my-5">
+        <div class="container">
+            <h4 class="text-muted mb-4">NEW RELEASES</h4>
+            <div class="row">
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                        <img class="mr-2 rounded img-release" src="img/Release1.png" alt="asd">
+                        <p class="mb-0 small ln2 text-truncate">
+                            <strong class="d-block">So beautiful</strong>
+                            <a href="#" class="text-muted">DPR IAN</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/Release2.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">What are you doing to me</strong>
+                        <a href="#" class="text-muted">dKash</a></p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/Release3.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">The time is now</strong>
+                        <a href="#" class="text-muted">Giriboy</a></p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/Release4.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">Insta Crush</strong>
+                        <a href="#" class="text-muted">Snacky Chan</a> &#47; <a href="#" class="text-muted">NASON</a></p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/Release5.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">Came so Close &#10088;Club mix&#10089;</strong>
+                        <a href="#" class="text-muted">Danny Foster</a> &#47; <a href="#" class="text-muted">Rocket Dubz</a> &#47; <a href="#" class="text-muted">Vula</a></p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/Release6.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">Came so Close &#10088;Mododena Remix&#10089;</strong>
+                        <a href="#" class="text-muted">Joey Negro</a>  &#47; <a href="#" class="text-muted">The Sunburst Band</a></p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/latest release.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">@username</strong>
+                        Donec id elit non mi porta gr</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/latest release.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">@username</strong>
+                        Donec id elit non mi porta gr</p>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <div class="media text-muted pb-3">
+                    <img class="mr-2 rounded img-release" src="img/latest release.png" alt="asd">
+                    <p class="mb-0 small ln2 text-truncate">
+                        <strong class="d-block">@username</strong>
+                        Donec id elit non mi porta gr</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Playlist recommendations -->
+    <section class="my-5">
+        <div class="container">
+            <h4 class="text-muted mb-4">RECOMMENDED PLAYLIST</h4>
+            <div id="playlist" class="row">
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommendedday.png" alt="recommendations">
+                        <p>Daily recommendations</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended1.png" alt="recommendations">
+                        <p>Chinese Rap</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended2.png" alt="recommendations">
+                        <p>Dubstep</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended3.png" alt="recommendations">
+                        <p>Future Bass</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended4.png" alt="recommendations">
+                        <p>House</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommendedday.png" alt="recommendations">
+                        <p>Daily song recommendations</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended1.png" alt="recommendations">
+                        <p>Chinese Rap</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended2.png" alt="recommendations">
+                        <p>Dubstep</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended3.png" alt="recommendations">
+                        <p>Future Bass</p>
+                    </div>
+                </div>
+                <div class="col-5 col-sm-6 col-md-2">
+                    <div class="text-muted">
+                        <img class="mr-2 rounded pb-2" src="img/Recommended4.png" alt="recommendations">
+                        <p>House</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

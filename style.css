@@ -1,0 +1,85 @@
+/* 83D39D orange */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html,body {
+    height: 100%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/*caja*/
+body{
+    background: #292A31;
+    color: #909ba7;
+}
+/* Section TOP MV */
+.data-mv {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding:.6em;
+}
+/* Section Latest Releases */
+.ln2 {
+    line-height: 2;
+}
+/*.img-release {
+    width: 80px;
+}*/
+
+/* #playlist {
+    gap:2em;
+} */
+.bg-yellow{
+    background: #FFB700;
+}
+
+select  {
+    text-transform: uppercase;
+}
+/*
+.img-release{
+
+    max-width: 200px;
+    min-height: 200px;
+}*/
+
+
+/* Mask cover img disc */
+#img-album{
+min-width: 300px;
+}
+
+
+.u-cover-alb{
+    width: 232px;
+    height: 232px;
+}
+.u-cover{
+    position: relative;
+}
+.u-cover img{
+    display: block;
+    width: 232px;
+    height: 232px;
+}
+
+.u-cover-alb .msk{
+    /*width: 216px;*/
+    width: 276px;
+    height: 232px;
+   /* background-position: 0 -986px;*/
+}
+.u-cover .msk{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.msk {
+    background: url('img/final3.png') no-repeat;
+}
